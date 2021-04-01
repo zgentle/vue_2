@@ -1,24 +1,11 @@
 # vue_2
 
-## Project setup
-```
-npm install
-```
-
 ### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### description
 ```
-npm run build
+vue2.X、axios、vue-router、vuex、element、less、fonteditor、v-lazy、rem
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
