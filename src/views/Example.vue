@@ -11,8 +11,12 @@
         <span class="text"><img v-lazy="{src: 'https://www.baidu.com/img/flexible/logo/pc/result.png', error: img, loading: img}"></span>
       </div>
       <div class="item">
+        <span class="label">v-lazy error</span>
+        <span class="text"><img v-lazy="{src: 'https://www.baidu1.com/img/flexible/logo/pc/result.png', error: img, loading: img}"></span>
+      </div>
+      <div class="item">
         <span class="label">public</span>
-        <span class="text"><img src="@/../public/static/images/file.png"></span>
+        <span class="text"><img src="@/../public/images/file.png"></span>
       </div>
       <div class="item">
         <span class="label">fetch</span>

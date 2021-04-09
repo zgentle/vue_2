@@ -1,4 +1,11 @@
 module.exports = {
+  // 放置静态资源
+  assetsDir: "static",
+  publicPath: "./",
+  // 指定生成的 index.html
+  indexPath: "index.html",
+  outputDir: "dist",
+  lintOnSave: process.env.NODE_ENV !== 'production',
   devServer: {
     host: '0.0.0.0',
     port: 9000,
